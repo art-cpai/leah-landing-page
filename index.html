@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LEAH - Don't Just do Good. Do Great.</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background: linear-gradient(135deg, #F5F5F7 0%, #ffffff 100%);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            color: #37373A;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 24px;
+            width: 100%;
+        }
+
+        /* Hero Section */
+        .hero {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 60px 0 80px;
+        }
+
+        .hero-content {
+            text-align: center;
+            max-width: 800px;
+        }
+
+        .hero-logo {
+            max-width: 500px;
+            width: 100%;
+            height: auto;
+            margin: 0 auto 32px;
+        }
+
+        .tagline {
+            font-size: 32px;
+            font-weight: 600;
+            line-height: 40px;
+            color: #37373A;
+            margin-bottom: 16px;
+        }
+
+        .subtitle {
+            font-size: 28px;
+            font-weight: 500;
+            line-height: 36px;
+            color: #37373A;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .hero-logo {
+                max-width: 320px;
+            }
+
+            .tagline {
+                font-size: 24px;
+                line-height: 32px;
+            }
+
+            .subtitle {
+                font-size: 22px;
+                line-height: 30px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <img src="images/leah-logo.png" alt="LEAH Logo" class="hero-logo">
+                <p class="tagline">Enterprise Grade Agentic AI Platform</p>
+                <p class="subtitle">Leah by ContractPodAI</p>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
